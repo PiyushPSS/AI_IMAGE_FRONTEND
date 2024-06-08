@@ -16,7 +16,7 @@
     "clean": "rm -rf .parcel-cache dist"
   },
   "keywords": [],
-  "author": "",
+  "author": "Piyush",
   "license": "ISC",
   "devDependencies": {
     "process": "^0.11.10"

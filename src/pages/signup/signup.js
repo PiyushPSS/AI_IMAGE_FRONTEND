@@ -28,8 +28,8 @@ const Signup = () => {
         <div>
             <Navbar page='signup' />
             <div className="signup-main-container">
+                <h1>Create an Account</h1>
                 <div className="signup-form-container">
-                    <h1>Signup</h1>
                     <input
                         type="email"
                         placeholder="Email"

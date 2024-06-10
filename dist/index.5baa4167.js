@@ -27390,14 +27390,14 @@ const HomePage = (props)=>{
                         className: "card",
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                                children: "What We Offer"
+                                children: "High-Quality Images"
                             }, void 0, false, {
                                 fileName: "src/pages/HomePage/homepage.js",
                                 lineNumber: 16,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "Explore a vast collection of high-quality images generated just for you."
+                                children: "Discover a vast collection of high-resolution images for your projects."
                             }, void 0, false, {
                                 fileName: "src/pages/HomePage/homepage.js",
                                 lineNumber: 17,
@@ -27413,14 +27413,14 @@ const HomePage = (props)=>{
                         className: "card",
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                                children: "Contact Us"
+                                children: "Seamless Integration"
                             }, void 0, false, {
                                 fileName: "src/pages/HomePage/homepage.js",
                                 lineNumber: 20,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "Reach out for any inquiries or support. We're here to help!"
+                                children: "Integrate our image generator into your workflow with ease and efficiency."
                             }, void 0, false, {
                                 fileName: "src/pages/HomePage/homepage.js",
                                 lineNumber: 21,
@@ -27436,14 +27436,14 @@ const HomePage = (props)=>{
                         className: "card",
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                                children: "About Us"
+                                children: "24/7 Support"
                             }, void 0, false, {
                                 fileName: "src/pages/HomePage/homepage.js",
                                 lineNumber: 24,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "Learn more about our mission to provide the best image generation service."
+                                children: "Contact us anytime for assistance. We're here to help you succeed."
                             }, void 0, false, {
                                 fileName: "src/pages/HomePage/homepage.js",
                                 lineNumber: 25,

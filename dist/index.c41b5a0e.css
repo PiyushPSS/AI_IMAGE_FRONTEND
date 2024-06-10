@@ -71,10 +71,11 @@ button:hover {
 }
 
 body {
+  color: #fff;
   background-image: url("benjamin-voros-phIFdC6lA4E-unsplash.67e18dc3.jpg");
   background-position: center;
   background-size: cover;
-  font-family: Arial, sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 .header {
@@ -90,7 +91,7 @@ body {
 }
 
 .header p {
-  opacity: .8;
+  opacity: .9;
   color: #fff;
   margin-bottom: 20px;
   font-size: 1.2em;
@@ -98,37 +99,65 @@ body {
 
 .card-container {
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: flex-start;
+  gap: 20px;
   padding: 20px;
   display: flex;
 }
 
 .card {
   text-align: left;
-  background-color: #fffc;
+  opacity: 0;
+  animation: 1s forwards fadeInUp;
+  animation-delay: var(--animation-delay);
+  background-color: #ffffffe6;
   border-radius: 15px;
   width: 300px;
   margin: 10px;
   padding: 20px;
   transition: transform .3s, box-shadow .3s;
-  box-shadow: 0 4px 8px #0003;
+  box-shadow: 0 4px 12px #0003;
+}
+
+.card:first-child {
+  --animation-delay: .2s;
+}
+
+.card:nth-child(2) {
+  --animation-delay: .4s;
+}
+
+.card:nth-child(3) {
+  --animation-delay: .6s;
 }
 
 .card h2 {
   color: #333;
   margin-bottom: 10px;
-  font-size: 1.5em;
+  font-size: 1.8em;
 }
 
 .card p {
   color: #555;
-  font-size: 1em;
+  font-size: 1.1em;
 }
 
 .card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 12px #0000004d;
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px #0000004d;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .image-generator-main-container {

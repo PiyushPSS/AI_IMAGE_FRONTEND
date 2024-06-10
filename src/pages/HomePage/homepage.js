@@ -13,16 +13,16 @@ const HomePage = (props) => {
 
             <div className="card-container">
                 <div className="card">
-                    <h2>What We Offer</h2>
-                    <p>Explore a vast collection of high-quality images generated just for you.</p>
+                    <h2>High-Quality Images</h2>
+                    <p>Discover a vast collection of high-resolution images for your projects.</p>
                 </div>
                 <div className="card">
-                    <h2>Contact Us</h2>
-                    <p>Reach out for any inquiries or support. We're here to help!</p>
+                    <h2>Seamless Integration</h2>
+                    <p>Integrate our image generator into your workflow with ease and efficiency.</p>
                 </div>
                 <div className="card">
-                    <h2>About Us</h2>
-                    <p>Learn more about our mission to provide the best image generation service.</p>
+                    <h2>24/7 Support</h2>
+                    <p>Contact us anytime for assistance. We're here to help you succeed.</p>
                 </div>
             </div>
         </div>
